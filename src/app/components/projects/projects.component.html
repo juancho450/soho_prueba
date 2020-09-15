@@ -1,0 +1,25 @@
+<section class="project">
+    <div class="contenedor-project">
+        <h3 class="project-titulo">Proyectos destacados</h3>
+        <span class="linea-project"></span>
+        <p class="project-parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam deleniti impedit beatae laborum, est veritatis illum libero earum eum eos alias ad aspernatur repellendus dolor fugit, placeat mollitia quod.</p>
+     </div> 
+ </section>
+
+<div *ngFor="let project of projects">
+    <section  class="list-project" id="{{project.id}}">
+        <div class="contenedor-list-project">
+            <div class="image">
+                <img src="{{project.image}}" alt="Image" class="image-project" style="width: 650px; height: 500px;">
+            </div>
+            <div class="content">
+                <h3 class="titulo-project">{{project.name}}</h3>
+                <p class="parrafo-project">{{project.description}}</p>
+                <div class="tags">
+                    <i class="fa fa-tags"></i><p class="tags-project">{{project.tags}}</p>
+                </div>
+                <a href="" id="{{project.id}}-action">Ver detalles</a>
+            </div>
+        </div>      
+    </section>
+</div>

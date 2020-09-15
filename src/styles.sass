@@ -1,0 +1,393 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face 
+    font-family: Soho
+    src: url("/assets/fonts/Graphik-Extralight.otf") format("truetype")
+
+
+container
+    margin-top: 4rem
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+
+body
+    background: #fff
+    font-family: 'Soho'
+    font-size: 16px
+
+
+.contenedor
+    width: 90%
+    overflow: hidden
+    margin: auto
+
+.navbar
+    display: flex
+    justify-content: space-between
+
+header
+    background-image: url('/assets/images/portada.png')
+    height: 600px
+    background-repeat: no-repeat
+    background-position: center
+    background-attachment: cover
+
+header .logo
+    margin: 30px 0
+
+header .menu
+    margin: 30px 0
+
+header .menu a:hover
+    text-decoration: underline
+    text-decoration-color: #02B300
+
+header .menu a
+    font-size: 18px
+    font-family: 'Soho'
+    font-weight: 300
+    display: inline-block
+    padding: 10px 0
+    margin: 0 15px
+    color: #fff
+    text-decoration: none
+
+header .contenido-header
+    margin: 120px 0
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    justify-content: center
+    align-content: center
+
+header .contenido-header .titulo-header
+    font-size: 40px
+    color: #fff
+    text-align: center
+
+
+
+header .contenido-header .texto-header
+    color: #02B300
+    font-weight: 900
+    margin-bottom: 30px
+    font-size: 50px
+    text-align: center
+
+header .contenido-header .action-header
+    display: inline-block
+    margin: auto
+    text-decoration: none
+    text-align: center
+    padding: 20px
+    border-radius: 5px
+    background: #02B300
+    color: #fff
+    font-weight: bold
+
+main .directo
+    background: #000
+    padding: 30px 0
+
+
+main .directo .contenedor-directo
+    width: 90%
+    overflow: hidden
+    margin: auto
+    display: flex;
+   
+
+main .directo .directo-parrafo
+    color: #ffff
+    margin-right: 50px
+    margin-top: 20px
+    font-size: 17px
+    
+
+main .directo .bold
+    font-weight: 900
+
+.fa-chevron-right
+    color:red !important
+    margin: 20px 15px 0px 0px
+
+main .directo .action-directo-evento
+    display: inline-block
+    text-decoration: none
+    text-align: center
+    padding: 15px
+    margin-right: 20px
+    border-radius: 5px
+    background: #02B300
+    color: #fff
+    font-weight: bold
+
+main .directo .action-directo-proximo
+    display: inline-block
+    text-decoration: none
+    text-align: center
+    padding: 15px
+    border-radius: 5px
+    border: 1px solid #02B300
+    background: #000
+    color: #02B300
+    font-weight: bold
+
+main .experiencia
+    background: #273138
+    padding: 60px 0
+
+
+main .experiencia .experiencia-titulo
+    color: #fff
+    font-size: 40px
+    text-align: center
+    margin-bottom: 20px
+
+
+main .experiencia .experiencia-parrafo
+    text-align: center
+    color: #999999
+    font-weight: 600
+    font-size: 17px
+
+main .experiencia .linea-experiencia
+    width: 90px
+    margin: auto
+    height: 2px
+    background: #02B300
+    margin-bottom: 30px
+    text-align: center
+
+.contenedor-experiencia
+    width: 90%
+    overflow: hidden
+    margin: auto
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    justify-content: center
+    align-content: center
+
+main .contenido-servicios
+    display: flex
+    flex-wrap: wrap
+    height: 350px
+
+
+main .servicios .contenido-servicios .tarjeta-1
+    width: 33.33333333333333%
+    text-align: center
+    background: #3B4148
+    padding: 100px 0
+    
+
+main .servicios .contenido-servicios .tarjeta-2
+    width: 33.33333333333333%
+    text-align: center
+    background: #161C21
+    padding: 100px 0
+
+main .servicios .contenido-servicios .tarjeta-3
+    width: 33.33333333333333%
+    text-align: center
+    background: #202A37
+    padding: 100px 0
+
+
+main .servicios .contenido-servicios .tarjeta-1 .contenido-tarjeta .titulo-tarjeta
+    margin: 10px 0
+    color: #02B300
+    font-size: 25px
+
+main .servicios .contenido-servicios .tarjeta-2 .contenido-tarjeta .titulo-tarjeta
+    margin: 10px 0
+    color: #02B300
+    font-size: 25px
+
+main .servicios .contenido-servicios .tarjeta-3 .contenido-tarjeta .titulo-tarjeta
+    margin: 10px 0
+    color: #02B300
+    font-size: 25px
+
+
+
+main .clientes
+    display: flex
+    background: #273138
+    padding: 60px 0
+
+
+main .clientes .clientes-textos
+    text-align: center
+    margin-bottom: 60px
+    color: #fff
+    font-size: 20px
+    overflow: hidden
+    margin: auto
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    justify-content: center
+    align-content: center
+
+main .clientes .titulo-clientes
+    font-size: 40px
+    margin-bottom: 20px
+    
+
+main .clientes .linea-clientes
+    width: 50px
+    margin: auto
+    height: 2px
+    background: #02B300
+    margin-bottom: 30px
+    text-align: center
+
+
+main .clientes .galeria-clientes
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+
+main .clientes .galeria-clientes .fotos-clientes
+    width: 30%
+    margin-bottom: 20px
+    position: relative
+
+.text-center 
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  font-size: 25px
+  text-align: center
+  color: #fff
+  font-weight: 600
+  width: 75%
+
+.text-bottom 
+  position: absolute
+  left: 50%
+  transform: translate(-50%, -50%)
+  font-size: 25px
+  text-align: center
+  color: #fff
+  font-weight: 600
+  width: 75%
+  bottom: 0;
+
+
+main .clientes .galeria-clientes .fotos-clientes img
+    width: 100%
+    height: 500px
+    border-radius: 5px
+    opacity: 0.6
+
+main .clientes .action-clientes
+    display: inline-block
+    margin: 50px 0px
+    text-decoration: none
+    text-align: center
+    padding: 20px
+    border-radius: 5px
+    background: #02B300
+    color: #fff
+    font-weight: bold
+
+footer .contenedor-footer
+    padding: 0px 20px
+
+footer .footer
+    background: #000
+    height: 50px
+    padding: 40px 0
+
+footer .footer-textos
+    display: flex
+    justify-content: space-between
+    text-align: center
+    color: #fff
+    font-size: 14px
+
+footer .facebook
+    color: blue
+    margin-right: 10px
+    text-decoration: none
+
+footer .twitter
+    color: #079ABA
+    margin-right: 10px
+    text-decoration: none
+
+footer .linkedin
+    color: #34649E
+    margin-right: 10px
+    text-decoration: none
+
+footer .youtube
+    color: red
+    text-decoration: none
+
+
+@media screen and (max-width:760px)
+    header .navbar
+        justify-content: center
+
+    main .directo .directo-parrafo
+        font-size: 15px
+        
+
+    
+
+@media screen and (max-width:630px)
+    
+    main .directo .directo-parrafo
+        font-size: 14px
+    
+    main .portafolio .galeria .fotos
+        width: 49%;
+    
+
+
+@media screen and (max-width: 500px)
+    header .contenido-header .titulo-header
+        font-size: 20px;
+
+    header .contenido-header .texto-header
+        font-size: 30px;
+    
+    header .contenido-header .action-header
+        font-size: 10px;
+    
+    main .directo .directo-parrafo
+        margin-top: 0px
+        font-size: 12px
+        margin-right: 5px
+
+    main .servicios .contenido-servicios .tarjeta-1
+        width: 100%
+
+    main .servicios .contenido-servicios .tarjeta-2
+        width: 100%
+
+    main .servicios .contenido-servicios .tarjeta-3
+        width: 100%
+    
+    
+@media screen and (max-width: 350px)
+    main .quehacemos .contenido-cajas .tarjeta
+        width: 98%;
+    
+    header .contenido-header .texto-header
+        
+    
+
+
+
+
