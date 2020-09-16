@@ -6,20 +6,19 @@
      </div> 
  </section>
 
-<div *ngFor="let project of projects">
-    <section  class="list-project" id="{{project.id}}">
-        <div class="contenedor-list-project">
-            <div class="image">
-                <img src="{{project.image}}" alt="Image" class="image-project" style="width: 650px; height: 500px;">
+
+<section *ngFor="let project of projects" class="list-project" id="{{project.id}}">
+    <div class="contenedor-list-project">
+        <div class="image">
+            <img src="{{project.image}}" alt="Image" class="image-project" style="width: 650px; height: 500px;">
+        </div>
+        <div class="content">
+            <h3 class="titulo-project">{{project.name}}</h3>
+            <p class="parrafo-project">{{project.description}}</p>
+            <div class="tags">
+                <i class="fa fa-tags"></i><p class="tags-project">{{project.tags}}</p>
             </div>
-            <div class="content">
-                <h3 class="titulo-project">{{project.name}}</h3>
-                <p class="parrafo-project">{{project.description}}</p>
-                <div class="tags">
-                    <i class="fa fa-tags"></i><p class="tags-project">{{project.tags}}</p>
-                </div>
-                <a href="" id="{{project.id}}-action">Ver detalles</a>
-            </div>
-        </div>      
-    </section>
-</div>
+            <a href="" id="{{project.id}}-action">Ver detalles</a>
+        </div>
+    </div>      
+</section>

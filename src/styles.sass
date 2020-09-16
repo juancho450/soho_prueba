@@ -30,11 +30,11 @@ body
     justify-content: space-between
 
 header
-    background-image: url('/assets/images/portada.png')
+    background-image: url('/assets/images/4k_wallpaper_android_wallpaper_astro_astrology_astronomy_constellation_cosmos_dark-1564065.jpg')
     height: 600px
     background-repeat: no-repeat
     background-position: center
-    background-attachment: cover
+    background-size: cover
 
 header .logo
     margin: 30px 0
@@ -57,7 +57,7 @@ header .menu a
     text-decoration: none
 
 header .contenido-header
-    margin: 120px 0
+    margin: 90px 0
     display: flex
     flex-direction: column
     flex-wrap: wrap
@@ -173,30 +173,35 @@ main .experiencia .linea-experiencia
     justify-content: center
     align-content: center
 
+
+main .contenedor-servicios
+    overflow: hidden
+    margin: auto
+
 main .contenido-servicios
-    display: flex
-    flex-wrap: wrap
-    height: 350px
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 
 main .servicios .contenido-servicios .tarjeta-1
     width: 33.33333333333333%
     text-align: center
     background: #3B4148
-    padding: 100px 0
+    padding: 60px
     
 
 main .servicios .contenido-servicios .tarjeta-2
     width: 33.33333333333333%
     text-align: center
     background: #161C21
-    padding: 100px 0
+    padding: 60px
 
 main .servicios .contenido-servicios .tarjeta-3
     width: 33.33333333333333%
     text-align: center
     background: #202A37
-    padding: 100px 0
+    padding: 60px
 
 
 main .servicios .contenido-servicios .tarjeta-1 .contenido-tarjeta .titulo-tarjeta
@@ -265,7 +270,7 @@ main .clientes .galeria-clientes .fotos-clientes
   top: 50%
   left: 50%
   transform: translate(-50%, -50%)
-  font-size: 25px
+  font-size: 20px
   text-align: center
   color: #fff
   font-weight: 600
@@ -275,7 +280,7 @@ main .clientes .galeria-clientes .fotos-clientes
   position: absolute
   left: 50%
   transform: translate(-50%, -50%)
-  font-size: 25px
+  font-size: 20px
   text-align: center
   color: #fff
   font-weight: 600
@@ -301,11 +306,12 @@ main .clientes .action-clientes
     font-weight: bold
 
 footer .contenedor-footer
+    overflow: hidden
+    margin: auto
     padding: 0px 20px
 
 footer .footer
     background: #000
-    height: 50px
     padding: 40px 0
 
 footer .footer-textos
@@ -339,19 +345,51 @@ footer .youtube
     header .navbar
         justify-content: center
 
+    header .menu a
+        font-size: 14px
+
     main .directo .directo-parrafo
         font-size: 15px
-        
+    
+    footer .footer
+            padding: 20px 0px
+    
+    footer .footer-textos
+            display: block
+    
 
     
 
 @media screen and (max-width:630px)
+    header .contenido-header .titulo-header
+        font-size: 30px;
+
+    header .contenido-header .texto-header
+        font-size: 40px;
     
+    header .contenido-header .action-header
+        font-size: 10px;
+
     main .directo .directo-parrafo
         font-size: 14px
     
     main .portafolio .galeria .fotos
         width: 49%;
+    
+    main .servicios .contenido-servicios .tarjeta-1
+        padding: 40px
+
+    main .servicios .contenido-servicios .tarjeta-2
+        padding: 40px
+
+    main .servicios .contenido-servicios .tarjeta-3
+        padding: 40px
+    
+    .text-center
+        font-size: 17px
+    
+    .text-bottom
+        font-size: 16px
     
 
 
@@ -372,19 +410,29 @@ footer .youtube
 
     main .servicios .contenido-servicios .tarjeta-1
         width: 100%
+        padding: 20px
 
     main .servicios .contenido-servicios .tarjeta-2
         width: 100%
+        padding: 20px
 
     main .servicios .contenido-servicios .tarjeta-3
         width: 100%
+        padding: 20px
     
+    .text-center
+        font-size: 14px
     
-@media screen and (max-width: 350px)
-    main .quehacemos .contenido-cajas .tarjeta
-        width: 98%;
+    .text-bottom
+        font-size: 12px   
+
     
-    header .contenido-header .texto-header
+@media screen and (max-width: 300px)
+    .text-center
+        font-size: 12px
+    
+    .text-bottom
+        font-size: 10px
         
     
 
